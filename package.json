@@ -1,0 +1,24 @@
+{
+  "name": "dash-doorbell",
+  "version": "1.0.0",
+  "description": "Rings a doorbell with your dash",
+  "main": "build/index.js",
+  "dependencies": {
+    "moment": "^2.17.0",
+    "pcap": "git+https://github.com/mranney/node_pcap.git",
+    "play-sound": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+  },
+  "keywords": [
+    "doorbell",
+    "dashbutton",
+    "amazon",
+    "bell",
+    "dash",
+    "button"
+  ],
+  "author": "Benoit d'Oncieu",
+  "license": "MIT"
+}
