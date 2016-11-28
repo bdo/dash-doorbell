@@ -1,5 +1,5 @@
 var pcap = require('pcap');
-var utils = require('./src/utils');
+var utils = require('./utils');
 var player = require('play-sound')(opts = {});
 var pcapSession = pcap.createSession('en4');
 var moment = require('moment');
