@@ -4,13 +4,13 @@
   "description": "Rings a doorbell with your dash",
   "main": "build/index.js",
   "dependencies": {
+    "axios": "^0.15.3",
     "moment": "^2.17.0",
     "pcap": "git+https://github.com/mranney/node_pcap.git",
     "play-sound": "^1.1.1"
   },
   "devDependencies": {},
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [
     "doorbell",
     "dashbutton",
