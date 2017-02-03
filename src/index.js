@@ -6,12 +6,12 @@ var moment = require('moment');
 var axios = require('axios');
 
 function timestamp() {
-  return '[' + moment().format("DD/MM/YYYY hh:mm:ss") + ']';
+  return '[' + moment().format("DD/MM/YYYY HH:mm:ss") + ']';
 }
 
 listenForDashPress('ac:63:be:75:b9:01', function() {
   console.log(timestamp(), "Pressed");
-  axios.get("https://maker.ifttt.com/trigger/ariel-dash/with/key/b-J9EQ4GHD5v1VksU4Yu-T");
+//  axios.get("https://maker.ifttt.com/trigger/ariel-dash/with/key/b-J9EQ4GHD5v1VksU4Yu-T");
   player.play('doorbell.wav');
 });
 
