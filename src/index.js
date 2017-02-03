@@ -11,7 +11,7 @@ function timestamp() {
 
 listenForDashPress('ac:63:be:75:b9:01', function() {
   console.log(timestamp(), "Pressed");
-//  axios.get("https://maker.ifttt.com/trigger/ariel-dash/with/key/b-J9EQ4GHD5v1VksU4Yu-T");
+  axios.get("https://maker.ifttt.com/trigger/ariel-dash/with/key/b-J9EQ4GHD5v1VksU4Yu-T");
   player.play('doorbell.wav');
 });
 
