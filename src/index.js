@@ -6,7 +6,7 @@ var moment = require('moment');
 var axios = require('axios');
 
 function timestamp() {
-  return '[' + moment().format("DD/MM/YYYY hh:mm:ss") + ']';
+  return '[' + moment().format("DD/MM/YYYY HH:mm:ss") + ']';
 }
 
 listenForDashPress('ac:63:be:75:b9:01', function() {
